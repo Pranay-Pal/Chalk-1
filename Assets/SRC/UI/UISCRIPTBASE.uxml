@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="UISCRIPTBASE.uss" />
+    <engine:Box name="main" class="container">
+        <engine:Image name="logo" class="logo" image="./logo.png" />
+        <engine:Label text="Welcome to Chalk" class="title" />
+        <engine:Button name="joinButton" text="Join Room" class="btn join" />
+        <engine:Button name="createButton" text="Create Room" class="btn create" />
+    </engine:Box>
+</engine:UXML>
