@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="UISCRIPTBASE.uss" />
+    <Style src="CreateMeeting.uss" />
+
+    <engine:Box name="main" class="page">
+        <engine:Box name="Cont" class="Cont">
+            <engine:Label text="Create a Room" class="title" />
+            <engine:Label text="Room Code" class="roomcodehader" />
+            <engine:Label text="XXXX-XXXX-XXXX" class="roomcode" name = "roomcode"/>
+            <engine:VisualElement class="buttons">
+                <engine:Button name="createConfirmButton" text="Create" class="btn create" />
+                <engine:Button name="backButton" text="Back" class="btn back" />
+            </engine:VisualElement>
+        </engine:Box>
+    </engine:Box>
+</engine:UXML>

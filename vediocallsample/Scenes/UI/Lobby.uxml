@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 255, 255); height: 100%;">
+        <ui:Label text="Room:" name="roomInfo" />
+        <ui:ScrollView name="peopleScrollView" style="height: 50%;" />
+        <ui:Button text="Start" name="startButton" />
+    </ui:VisualElement>
+</ui:UXML>

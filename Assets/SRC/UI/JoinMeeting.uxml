@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+    <Style src="UISCRIPTBASE.uss" />
+    <Style src="JoinMeeting.uss" />
+
+    <engine:Box name="main" class="page">
+        <engine:Box name="Cont" class="Cont">
+            <engine:Label text="Join a Meeting" class="title" />
+
+            <engine:VisualElement class="form">
+                <engine:Label text="Room Code" class="field-label" />
+                <engine:TextField name="roomCodeField" class="textfield" />
+            </engine:VisualElement>
+
+            <engine:VisualElement class="buttons">
+                <engine:Button name="backButton" text="Back" class="btn back" />
+                <engine:Button name="joinConfirmButton" text="Join" class="btn join" />
+            </engine:VisualElement>
+        </engine:Box>
+    </engine:Box>
+</engine:UXML>

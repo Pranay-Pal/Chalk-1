@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement class="loading-page" style="flex-grow: 1; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.55);">
+        <ui:VisualElement style="width: 180px; height: 180px; background-image: url(&quot;project://database/Assets/SRC/UI/loading.png?fileID=2800000&amp;guid=2fcb96920904d7040866fd59507a5a1e&amp;type=3#loading&quot;); background-size: contain; background-position: center; background-repeat: no-repeat; margin-bottom: 24px;" />
+        <ui:Label name="loadingMessage" text="Connecting..." style="unity-font-style: bold; font-size: 18px; color: white; margin-bottom: 16px; text-align: center;" />
+        <ui:Button name="cancelButton" text="Cancel" class="btn back" style="width: 160px;" />
+    </ui:VisualElement>
+</ui:UXML>

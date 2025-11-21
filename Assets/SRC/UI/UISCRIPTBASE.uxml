@@ -9,7 +9,7 @@
     <engine:Box name="main" class="page">
         <engine:Box name="Cont" class="Cont" >
             <engine:Image name="logo" class="logo" />
-            <engine:Label text="Welcome to Meeting App" class="title" />
+            <engine:Label text="Welcome to Spatial Chalk" class="title" />
             <engine:Button name="joinButton" text="Join Room" class="btn join" />
             <engine:Button name="createButton" text="Create Room" class="btn create" />
         </engine:Box>

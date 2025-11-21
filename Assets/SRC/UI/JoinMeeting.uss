@@ -1,0 +1,43 @@
+/* Join Meeting page specific styles; inherits base from UISCRIPTBASE.uss */
+.form {
+    width: 85%;
+    max-width: 520px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.field-label {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    color: #333333;
+    font-size: 14px;
+    -unity-text-align: middle-left;
+}
+
+.textfield {
+    height: 36px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #cccccc;
+    background-color: white;
+}
+
+.buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn.back {
+    background-color: #b0b0b0;
+    color: #ffffff;
+}
+
+.btn.back:hover {
+    background-color: #969696;
+}

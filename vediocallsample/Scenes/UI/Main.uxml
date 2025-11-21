@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; height: 100%; background-color: rgb(255, 255, 255);">
+        <ui:Button text="Join" name="joinButton" />
+        <ui:Button text="Create" name="createButton" />
+    </ui:VisualElement>
+</ui:UXML>

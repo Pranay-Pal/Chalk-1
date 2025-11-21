@@ -1,0 +1,10 @@
+[
+    {
+        "urls": "stun:relay1.expressturn.com:3480"
+    },
+    {
+        "urls": "turn:relay1.expressturn.com:3480?transport=tcp",
+        "username": "000000002078464525",
+        "credential": "tH+jLmUffQ9q9zfefHaSq0RPWko="
+    }
+]

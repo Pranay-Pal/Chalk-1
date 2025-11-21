@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(255, 255, 255); height: 100%;">
+        <ui:TextField label="Room Code :" placeholder-text="Entre Room Code" name="roomCode" />
+        <ui:Button text="Entre" name="enterButton" />
+        <ui:Button text="Back" name="backButton" />
+    </ui:VisualElement>
+</ui:UXML>
